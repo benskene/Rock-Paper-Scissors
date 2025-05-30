@@ -36,10 +36,10 @@ def play_game():
 
         result = determine_winner(user, computer)
         if result == "user":
-            print("You win this round! 🎉")
+            print("You win this round!")
             user_score += 1
         elif result == "computer":
-            print("Computer wins this round 😢")
+            print("Computer wins this round")
             computer_score += 1
         else:
             print("It's a tie!")
